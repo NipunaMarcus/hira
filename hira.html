@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="libs/jquery-ui-1.11.4/jquery-ui.css"/>
+    <link href="libs/font-wso2_1.0.0/css/font-wso2.min.css" rel="stylesheet" type="text/css">
+    <link href="libs/theme-wso2_1.0/css/theme-wso2.css" rel="stylesheet" type="text/css">
+    <link href="hira.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<ul>
+    <li id="hideAll">
+        <input type='checkbox' name='ds-menu-hide-all' value='hide' id='ds-menu-hide-all'>
+        <i class='fw fw-view'></i>
+        Hide All
+    </li>
+</ul>
+<ul id="sortable" class="dd dd-list connect">
+    <li id="item1" data-id="item1" data-parent="" class="dd-item" data-anon="false">
+        <div class="dd-handle">
+            Item 1
+            <span class="hide-controls"><i class='fw fw-view'></i></span>
+        </div>
+        <ul class="dd-list connect" data-anon="false">
+            <li id="item8" data-id="item8" data-parent="item1" class="dd-item" data-anon="false">
+                <div class="dd-handle">
+                    Item 8
+                    <span class="hide-controls"><i class='fw fw-view'></i></span>
+                </div>
+            </li>
+            <li id="item9" data-id="item9" data-parent="item1" class="dd-item" data-anon="false">
+                <div class="dd-handle">
+                    Item 9
+                    <span class="hide-controls"><i class='fw fw-view'></i></span>
+                </div>
+            </li>
+        </ul>
+    </li>
+    <li id="item2" data-id="item2" data-parent="" class="dd-item" data-anon="false">
+        <div class="dd-handle">
+            Item 2
+            <span class="hide-controls"><i class='fw fw-view'></i></span>
+        </div>
+    </li>
+    <li id="item3" data-id="item3" data-parent="" class="dd-item" data-anon="false">
+        <div class="dd-handle">
+            Item 3
+            <span class="hide-controls"><i class='fw fw-view'></i></span>
+        </div>
+    </li>
+    <li id="item4" data-id="item4" data-parent="" class="dd-item" data-anon="false">
+        <div class="dd-handle">
+            Item 4
+            <span class="hide-controls"><i class='fw fw-view'></i></span>
+        </div>
+    </li>
+    <li id="item5" data-id="item5" data-parent="" class="dd-item" data-anon="false">
+        <div class="dd-handle">
+            Item 5
+            <span class="hide-controls"><i class='fw fw-view'></i></span>
+        </div>
+    </li>
+    <li id="item6" data-id="item6" data-parent="" class="dd-item" data-anon="false">
+        <div class="dd-handle">
+            Item 6
+            <span class="hide-controls"><i class='fw fw-view'></i></span>
+        </div>
+    </li>
+    <li id="item7" data-id="item7" data-parent="" class="dd-item" data-anon="false">
+        <div class="dd-handle">
+            Item 7
+            <span class="hide-controls"><i class='fw fw-view'></i></span>
+        </div>
+    </li>
+</ul>
+<script src="libs/jquery_1.11.0/jquery-1.11.3.min.js"></script>
+<script src="libs/jquery-ui-1.11.4/jquery-ui.js"></script>
+<script src="libs/theme-wso2_1.0/js/theme-wso2.js"></script>
+<script src="hira.js"></script>
+</body>
+</html>
